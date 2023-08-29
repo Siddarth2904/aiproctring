@@ -1,0 +1,13 @@
+{
+    "name": "AI Proctor",
+    "description": "An extension to keep a track of tabs and full screen mode.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
